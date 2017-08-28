@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <contextName>spring-rpc-common</contextName>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date [%t] %-5level [%contextName] %logger{36}.%method:%L - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 单文件日志 -->
+    <!--<appender name="LOG_DIR" class="ch.qos.logback.core.FileAppender">-->
+        <!--&lt;!&ndash; logDir 在运行时通过-DlogDir="/to/some/path的方式传入. ":"- 是指当logDir为null时,取默认值logs"&ndash;&gt;-->
+        <!--<file>${logDir:-logs}/spring-rpc.log</file>-->
+        <!--<encoder>-->
+            <!--<pattern>%date %-4level [%thread] %logger{50} [%file:%line] - %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
+
+    <!-- 滚动日志 -->
+    <appender name="LOG_PATH" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- logDir 在运行时通过-DlogDir="/to/some/path的方式传入. ":"- 是指当logDir为null时,取默认值logs"-->
+        <file>${logDir:-logs}/spring-rpc.log</file>
+        <!-- 滚动策略为时间和文件大小同时有效策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <fileNamePattern>${logDir:-logs}/spring-rpc-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- keep 30 days' worth of history capped at 3MB total size -->
+            <maxHistory>30</maxHistory>
+            <!-- each file should be at most 10MB, keep 60 days worth of history, but at most 20GB -->
+            <maxFileSize>10MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <!-- %-5level这里的5指的是输出日志时level字段的宽度为5;%logger{50},50指包名宽度;%n换行;%L,输出日志的行号 -->
+            <pattern>%date %-5level [%t] [%contextName] %logger{50}.%method:%L - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 这里的level是设定日志可以输出的最低级别,如果程序中的优先级这里的设置,将不会输出日志;反之则可以 -->
+    <root level="debug">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="LOG_PATH"/>
+    </root>
+</configuration>

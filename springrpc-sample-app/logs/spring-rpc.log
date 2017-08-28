@@ -1,0 +1,902 @@
+2017-08-04 23:37:45,119 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2017-08-04 23:37:45,125 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:host.name=localhost
+2017-08-04 23:37:45,126 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.version=1.8.0_91
+2017-08-04 23:37:45,126 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.vendor=Oracle Corporation
+2017-08-04 23:37:45,127 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+2017-08-04 23:37:45,128 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.class.path=/Applications/IntelliJ IDEA 2.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA 2.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/tools.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app/target/classes:/Users/macxie/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/macxie/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macxie/.m2/repository/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-client/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-common/target/classes:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar:/Users/macxie/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/macxie/.m2/repository/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar:/Users/macxie/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/macxie/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/macxie/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-server/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-server/target/classes:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-registry/1.0-SNAPSHOT/spring-rpc-registry-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-api/1.0-SNAPSHOT/spring-rpc-api-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar:/Users/macxie/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/macxie/.m2/repository/org/springframework/spring-context/3.2.12.RELEASE/spring-context-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-aop/3.2.12.RELEASE/spring-aop-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/macxie/.m2/repository/org/springframework/spring-beans/3.2.12.RELEASE/spring-beans-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-expression/3.2.12.RELEASE/spring-expression-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar:/Users/macxie/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/macxie/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.jar
+2017-08-04 23:37:45,129 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.library.path=/Users/macxie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2017-08-04 23:37:45,130 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.io.tmpdir=/var/folders/qs/x5797tzx51n6jy077dyz6vgw0000gp/T/
+2017-08-04 23:37:45,131 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.compiler=<NA>
+2017-08-04 23:37:45,132 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.name=Mac OS X
+2017-08-04 23:37:45,140 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.arch=x86_64
+2017-08-04 23:37:45,143 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.version=10.11.6
+2017-08-04 23:37:45,143 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.name=macxie
+2017-08-04 23:37:45,144 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.home=/Users/macxie
+2017-08-04 23:37:45,144 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.dir=/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app
+2017-08-04 23:37:45,147 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=arc1.server:2181 sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@4efbca5a
+2017-08-04 23:37:45,166 DEBUG [main] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.<clinit>:99 - zookeeper.disableAutoWatchReset is false
+2017-08-04 23:37:45,271 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server arc1.server/10.211.55.111:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:37:45,434 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.primeConnection:849 - Socket connection established to arc1.server/10.211.55.111:2181, initiating session
+2017-08-04 23:37:45,440 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.primeConnection:889 - Session establishment request sent on arc1.server/10.211.55.111:2181
+2017-08-04 23:37:45,482 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.onConnected:1207 - Session establishment complete on server arc1.server/10.211.55.111:2181, sessionid = 0x15dade45fef0000, negotiated timeout = 5000
+2017-08-04 23:37:45,524 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:815 - Reading reply sessionid:0x15dade45fef0000, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,21474836481,-101  request:: '/registry,T  response:: v{} 
+2017-08-04 23:37:45,544 ERROR [main] [spring-rpc-server] tech.xpercent.springrpc.client.ServiceDiscovery.watchNode:65 - 
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /registry
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getChildren(ZooKeeper.java:1468)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.watchNode(ServiceDiscovery.java:50)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:121)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:277)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-08-04 23:37:45,577 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=serviceDiscovery sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@31190526
+2017-08-04 23:37:46,966 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:37:47,174 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:48,848 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:50,518 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:51,972 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6380ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:37:51,973 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:37:51,974 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:37:52,189 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:53,082 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:37:53,858 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:55,529 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:57,200 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:58,088 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6008ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:37:58,089 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:37:58,090 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:37:58,872 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:37:59,196 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:00,543 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:02,214 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:03,885 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:04,200 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6005ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:38:04,201 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:38:04,201 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:38:05,310 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:05,558 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 3ms
+2017-08-04 23:38:07,226 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:08,895 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:10,313 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6007ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:38:10,314 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:38:10,315 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:38:10,566 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 0ms
+2017-08-04 23:38:11,426 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:11,432 WARN  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1089 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2017-08-04 23:38:11,432 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:780)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+2017-08-04 23:38:11,432 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.nio.channels.ClosedChannelException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:797)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+2017-08-04 23:38:12,234 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:12,539 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:13,905 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 0ms
+2017-08-04 23:38:15,575 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:17,247 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:17,545 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6007ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:38:17,547 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:38:17,549 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:38:18,656 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:18,917 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:20,589 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:22,261 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:23,660 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6005ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:38:23,660 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:38:23,660 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:38:23,935 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 4ms
+2017-08-04 23:38:24,768 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:25,602 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 0ms
+2017-08-04 23:38:27,273 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:28,942 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:29,773 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6009ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:38:29,775 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:38:29,776 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:38:30,611 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:30,888 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:32,283 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:33,952 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:35,619 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:35,893 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.run:1083 - Client session timed out, have not heard from server in 6010ms for sessionid 0x0, closing socket connection and attempting reconnect
+2017-08-04 23:38:35,894 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:192 - Ignoring exception during shutdown input
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:401)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:189)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownInput(SocketChannelImpl.java:782)
+	at sun.nio.ch.SocketAdaptor.shutdownInput(SocketAdaptor.java:399)
+	... 3 common frames omitted
+2017-08-04 23:38:35,894 DEBUG [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxnSocketNIO.cleanup:199 - Ignoring exception during shutdown output
+java.net.SocketException: Socket is not connected
+	at sun.nio.ch.Net.translateToSocketException(Net.java:123)
+	at sun.nio.ch.Net.translateException(Net.java:157)
+	at sun.nio.ch.Net.translateException(Net.java:163)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:409)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.cleanup(ClientCnxnSocketNIO.java:196)
+	at org.apache.zookeeper.ClientCnxn$SendThread.cleanup(ClientCnxn.java:1157)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1097)
+Caused by: java.nio.channels.NotYetConnectedException: null
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:799)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:407)
+	... 3 common frames omitted
+2017-08-04 23:38:37,002 INFO  [main-SendThread(211.98.71.195:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server 211.98.71.195/211.98.71.195:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:38:37,288 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 1ms
+2017-08-04 23:38:38,956 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:714 - Got ping response for sessionid: 0x15dade45fef0000 after 0ms
+2017-08-04 23:42:33,824 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2017-08-04 23:42:33,828 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:host.name=localhost
+2017-08-04 23:42:33,828 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.version=1.8.0_91
+2017-08-04 23:42:33,828 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.vendor=Oracle Corporation
+2017-08-04 23:42:33,828 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+2017-08-04 23:42:33,829 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.class.path=/Applications/IntelliJ IDEA 2.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA 2.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/tools.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app/target/classes:/Users/macxie/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/macxie/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macxie/.m2/repository/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-client/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-common/target/classes:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar:/Users/macxie/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/macxie/.m2/repository/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar:/Users/macxie/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/macxie/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/macxie/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-server/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-server/target/classes:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-registry/1.0-SNAPSHOT/spring-rpc-registry-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-api/1.0-SNAPSHOT/spring-rpc-api-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar:/Users/macxie/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/macxie/.m2/repository/org/springframework/spring-context/3.2.12.RELEASE/spring-context-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-aop/3.2.12.RELEASE/spring-aop-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/macxie/.m2/repository/org/springframework/spring-beans/3.2.12.RELEASE/spring-beans-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-expression/3.2.12.RELEASE/spring-expression-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar:/Users/macxie/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/macxie/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.jar
+2017-08-04 23:42:33,829 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.library.path=/Users/macxie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2017-08-04 23:42:33,829 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.io.tmpdir=/var/folders/qs/x5797tzx51n6jy077dyz6vgw0000gp/T/
+2017-08-04 23:42:33,829 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.compiler=<NA>
+2017-08-04 23:42:33,830 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.name=Mac OS X
+2017-08-04 23:42:33,830 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.arch=x86_64
+2017-08-04 23:42:33,830 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.version=10.11.6
+2017-08-04 23:42:33,830 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.name=macxie
+2017-08-04 23:42:33,830 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.home=/Users/macxie
+2017-08-04 23:42:33,831 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.dir=/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app
+2017-08-04 23:42:33,832 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=arc1.server:2181 sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@67c27493
+2017-08-04 23:42:33,837 DEBUG [main] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.<clinit>:99 - zookeeper.disableAutoWatchReset is false
+2017-08-04 23:42:33,900 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server arc1.server/10.211.55.111:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:42:33,969 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.primeConnection:849 - Socket connection established to arc1.server/10.211.55.111:2181, initiating session
+2017-08-04 23:42:33,972 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.primeConnection:889 - Session establishment request sent on arc1.server/10.211.55.111:2181
+2017-08-04 23:42:34,002 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.onConnected:1207 - Session establishment complete on server arc1.server/10.211.55.111:2181, sessionid = 0x15dade45fef0001, negotiated timeout = 5000
+2017-08-04 23:42:34,012 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-server] org.apache.zookeeper.ClientCnxn.readResponse:815 - Reading reply sessionid:0x15dade45fef0001, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,21474836483,-101  request:: '/registry,T  response:: v{} 
+2017-08-04 23:42:34,029 ERROR [main] [spring-rpc-server] tech.xpercent.springrpc.client.ServiceDiscovery.watchNode:65 - 
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /registry
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getChildren(ZooKeeper.java:1468)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.watchNode(ServiceDiscovery.java:50)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:121)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:277)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-08-04 23:42:34,051 INFO  [main] [spring-rpc-server] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=serviceDiscovery sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@3eb25e1a
+2017-08-04 23:42:34,520 ERROR [main] [spring-rpc-server] tech.xpercent.springrpc.client.ServiceDiscovery.connectServer:43 - 
+java.net.UnknownHostException: serviceDiscovery: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.zookeeper.client.StaticHostProvider.<init>(StaticHostProvider.java:60)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:445)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:380)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.connectServer(ServiceDiscovery.java:34)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:224)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:93)
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:61)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:45)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:708)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-08-04 23:43:40,866 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2017-08-04 23:43:40,871 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:host.name=localhost
+2017-08-04 23:43:40,872 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.version=1.8.0_91
+2017-08-04 23:43:40,872 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.vendor=Oracle Corporation
+2017-08-04 23:43:40,872 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+2017-08-04 23:43:40,873 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.class.path=/Applications/IntelliJ IDEA 2.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA 2.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/tools.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app/target/classes:/Users/macxie/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/macxie/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macxie/.m2/repository/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-client/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-common/target/classes:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar:/Users/macxie/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/macxie/.m2/repository/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar:/Users/macxie/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/macxie/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/macxie/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-server/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-server/target/classes:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-registry/1.0-SNAPSHOT/spring-rpc-registry-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-api/1.0-SNAPSHOT/spring-rpc-api-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar:/Users/macxie/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/macxie/.m2/repository/org/springframework/spring-context/3.2.12.RELEASE/spring-context-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-aop/3.2.12.RELEASE/spring-aop-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/macxie/.m2/repository/org/springframework/spring-beans/3.2.12.RELEASE/spring-beans-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-expression/3.2.12.RELEASE/spring-expression-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar:/Users/macxie/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/macxie/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.jar
+2017-08-04 23:43:40,873 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.library.path=/Users/macxie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2017-08-04 23:43:40,873 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.io.tmpdir=/var/folders/qs/x5797tzx51n6jy077dyz6vgw0000gp/T/
+2017-08-04 23:43:40,874 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.compiler=<NA>
+2017-08-04 23:43:40,874 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.name=Mac OS X
+2017-08-04 23:43:40,874 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.arch=x86_64
+2017-08-04 23:43:40,875 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.version=10.11.6
+2017-08-04 23:43:40,875 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.name=macxie
+2017-08-04 23:43:40,875 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.home=/Users/macxie
+2017-08-04 23:43:40,876 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.dir=/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app
+2017-08-04 23:43:40,878 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=arc1.server:2181 sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@6adbc9d
+2017-08-04 23:43:40,890 DEBUG [main] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.<clinit>:99 - zookeeper.disableAutoWatchReset is false
+2017-08-04 23:43:40,976 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server arc1.server/10.211.55.111:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:43:41,099 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.primeConnection:849 - Socket connection established to arc1.server/10.211.55.111:2181, initiating session
+2017-08-04 23:43:41,102 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.primeConnection:889 - Session establishment request sent on arc1.server/10.211.55.111:2181
+2017-08-04 23:43:41,119 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.onConnected:1207 - Session establishment complete on server arc1.server/10.211.55.111:2181, sessionid = 0x15dade45fef0002, negotiated timeout = 5000
+2017-08-04 23:43:41,131 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.readResponse:815 - Reading reply sessionid:0x15dade45fef0002, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,21474836485,-101  request:: '/registry,T  response:: v{} 
+2017-08-04 23:43:41,145 ERROR [main] [spring-rpc-app] tech.xpercent.springrpc.client.ServiceDiscovery.watchNode:65 - 
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /registry
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getChildren(ZooKeeper.java:1468)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.watchNode(ServiceDiscovery.java:50)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:121)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:277)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-08-04 23:43:41,166 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=serviceDiscovery sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@6989da5e
+2017-08-04 23:43:41,234 ERROR [main] [spring-rpc-app] tech.xpercent.springrpc.client.ServiceDiscovery.connectServer:43 - 
+java.net.UnknownHostException: serviceDiscovery: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.zookeeper.client.StaticHostProvider.<init>(StaticHostProvider.java:60)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:445)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:380)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.connectServer(ServiceDiscovery.java:34)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:224)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:93)
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:61)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:45)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:708)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-08-04 23:44:50,687 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2017-08-04 23:44:50,690 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:host.name=localhost
+2017-08-04 23:44:50,690 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.version=1.8.0_91
+2017-08-04 23:44:50,690 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.vendor=Oracle Corporation
+2017-08-04 23:44:50,690 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+2017-08-04 23:44:50,690 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.class.path=/Applications/IntelliJ IDEA 2.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA 2.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/tools.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app/target/classes:/Users/macxie/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/macxie/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macxie/.m2/repository/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-client/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-common/target/classes:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar:/Users/macxie/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/macxie/.m2/repository/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar:/Users/macxie/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/macxie/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/macxie/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-server/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-server/target/classes:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-registry/1.0-SNAPSHOT/spring-rpc-registry-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-api/1.0-SNAPSHOT/spring-rpc-api-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar:/Users/macxie/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/macxie/.m2/repository/org/springframework/spring-context/3.2.12.RELEASE/spring-context-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-aop/3.2.12.RELEASE/spring-aop-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/macxie/.m2/repository/org/springframework/spring-beans/3.2.12.RELEASE/spring-beans-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-expression/3.2.12.RELEASE/spring-expression-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar:/Users/macxie/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/macxie/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.jar
+2017-08-04 23:44:50,691 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.library.path=/Users/macxie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2017-08-04 23:44:50,691 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.io.tmpdir=/var/folders/qs/x5797tzx51n6jy077dyz6vgw0000gp/T/
+2017-08-04 23:44:50,691 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.compiler=<NA>
+2017-08-04 23:44:50,691 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.name=Mac OS X
+2017-08-04 23:44:50,691 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.arch=x86_64
+2017-08-04 23:44:50,691 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.version=10.11.6
+2017-08-04 23:44:50,692 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.name=macxie
+2017-08-04 23:44:50,692 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.home=/Users/macxie
+2017-08-04 23:44:50,692 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.dir=/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app
+2017-08-04 23:44:50,694 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=10.211.55.111:2181 sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@6adbc9d
+2017-08-04 23:44:50,697 DEBUG [main] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.<clinit>:99 - zookeeper.disableAutoWatchReset is false
+2017-08-04 23:44:50,756 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server arc1.server/10.211.55.111:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:44:50,828 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.primeConnection:849 - Socket connection established to arc1.server/10.211.55.111:2181, initiating session
+2017-08-04 23:44:50,830 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.primeConnection:889 - Session establishment request sent on arc1.server/10.211.55.111:2181
+2017-08-04 23:44:50,840 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.onConnected:1207 - Session establishment complete on server arc1.server/10.211.55.111:2181, sessionid = 0x15dade45fef0003, negotiated timeout = 5000
+2017-08-04 23:44:50,852 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.readResponse:815 - Reading reply sessionid:0x15dade45fef0003, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,21474836487,-101  request:: '/registry,T  response:: v{} 
+2017-08-04 23:44:50,859 ERROR [main] [spring-rpc-app] tech.xpercent.springrpc.client.ServiceDiscovery.watchNode:65 - 
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /registry
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getChildren(ZooKeeper.java:1468)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.watchNode(ServiceDiscovery.java:50)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:121)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:277)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-08-04 23:44:50,874 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=serviceDiscovery sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@385c9627
+2017-08-04 23:44:50,929 ERROR [main] [spring-rpc-app] tech.xpercent.springrpc.client.ServiceDiscovery.connectServer:43 - 
+java.net.UnknownHostException: serviceDiscovery: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.zookeeper.client.StaticHostProvider.<init>(StaticHostProvider.java:60)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:445)
+	at org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:380)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.connectServer(ServiceDiscovery.java:34)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:25)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:224)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:93)
+	at org.springframework.beans.TypeConverterSupport.doConvert(TypeConverterSupport.java:61)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:45)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:708)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-08-04 23:45:49,165 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2017-08-04 23:45:49,170 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:host.name=localhost
+2017-08-04 23:45:49,170 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.version=1.8.0_91
+2017-08-04 23:45:49,171 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.vendor=Oracle Corporation
+2017-08-04 23:45:49,171 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+2017-08-04 23:45:49,171 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.class.path=/Applications/IntelliJ IDEA 2.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA 2.app/Contents/plugins/junit/lib/junit-rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/lib/tools.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app/target/classes:/Users/macxie/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/macxie/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macxie/.m2/repository/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar:/Users/macxie/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-client/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-common/target/classes:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar:/Users/macxie/.m2/repository/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar:/Users/macxie/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/Users/macxie/.m2/repository/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar:/Users/macxie/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/Users/macxie/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/macxie/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-server/target/classes:/Users/macxie/Documents/repositories/git_book/spring-rpc/spring-rpc-server/target/classes:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-registry/1.0-SNAPSHOT/spring-rpc-registry-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/tech/xpercent/spring-rpc-api/1.0-SNAPSHOT/spring-rpc-api-1.0-SNAPSHOT.jar:/Users/macxie/.m2/repository/org/projectlombok/lombok/1.16.16/lombok-1.16.16.jar:/Users/macxie/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/macxie/.m2/repository/org/springframework/spring-context/3.2.12.RELEASE/spring-context-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-aop/3.2.12.RELEASE/spring-aop-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/macxie/.m2/repository/org/springframework/spring-beans/3.2.12.RELEASE/spring-beans-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/springframework/spring-expression/3.2.12.RELEASE/spring-expression-3.2.12.RELEASE.jar:/Users/macxie/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar:/Users/macxie/.m2/repository/cglib/cglib/3.1/cglib-3.1.jar:/Users/macxie/.m2/repository/org/ow2/asm/asm/4.2/asm-4.2.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/macxie/.m2/repository/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.jar
+2017-08-04 23:45:49,172 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.library.path=/Users/macxie/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2017-08-04 23:45:49,172 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.io.tmpdir=/var/folders/qs/x5797tzx51n6jy077dyz6vgw0000gp/T/
+2017-08-04 23:45:49,172 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:java.compiler=<NA>
+2017-08-04 23:45:49,172 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.name=Mac OS X
+2017-08-04 23:45:49,173 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.arch=x86_64
+2017-08-04 23:45:49,174 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:os.version=10.11.6
+2017-08-04 23:45:49,174 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.name=macxie
+2017-08-04 23:45:49,174 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.home=/Users/macxie
+2017-08-04 23:45:49,175 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.logEnv:100 - Client environment:user.dir=/Users/macxie/Documents/repositories/git_book/spring-rpc/springrpc-sample-app
+2017-08-04 23:45:49,177 INFO  [main] [spring-rpc-app] org.apache.zookeeper.ZooKeeper.<init>:438 - Initiating client connection, connectString=10.211.55.111:2181 sessionTimeout=5000 watcher=tech.xpercent.springrpc.client.ServiceDiscovery$1@6adbc9d
+2017-08-04 23:45:49,183 DEBUG [main] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.<clinit>:99 - zookeeper.disableAutoWatchReset is false
+2017-08-04 23:45:49,328 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.logStartConnect:966 - Opening socket connection to server arc1.server/10.211.55.111:2181. Will not attempt to authenticate using SASL (unknown error)
+2017-08-04 23:45:49,453 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.primeConnection:849 - Socket connection established to arc1.server/10.211.55.111:2181, initiating session
+2017-08-04 23:45:49,456 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.primeConnection:889 - Session establishment request sent on arc1.server/10.211.55.111:2181
+2017-08-04 23:45:49,492 INFO  [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.onConnected:1207 - Session establishment complete on server arc1.server/10.211.55.111:2181, sessionid = 0x15dade45fef0004, negotiated timeout = 5000
+2017-08-04 23:45:49,506 DEBUG [main-SendThread(arc1.server:2181)] [spring-rpc-app] org.apache.zookeeper.ClientCnxn.readResponse:815 - Reading reply sessionid:0x15dade45fef0004, packet:: clientPath:null serverPath:null finished:false header:: 1,8  replyHeader:: 1,21474836489,-101  request:: '/registry,T  response:: v{} 
+2017-08-04 23:45:49,523 ERROR [main] [spring-rpc-app] tech.xpercent.springrpc.client.ServiceDiscovery.watchNode:65 - 
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /registry
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getChildren(ZooKeeper.java:1468)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.watchNode(ServiceDiscovery.java:50)
+	at tech.xpercent.springrpc.client.ServiceDiscovery.<init>(ServiceDiscovery.java:27)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:121)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:277)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1077)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:981)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:191)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:636)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:934)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
